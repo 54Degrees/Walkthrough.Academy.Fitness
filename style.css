@@ -79,8 +79,8 @@ body.multiple-scenes.mobile #titleBar {
   height: 100%;
   line-height: 30px;
   padding: 5px;
-  background-color: rgb(45,45,75);
-  background-color: rgba(45,45,75,0.8);
+  background-color: rgb(180,190,160);
+  background-color: rgba(180,190,160,0.8);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -103,8 +103,8 @@ body.multiple-scenes.mobile #titleBar {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(180,190,160);
-  background-color: rgba(180,190,160,0.8);
+  background-color: rgb(45,45,75);
+  background-color: rgba(45,45,75,0.8);
 }
 
 .mobile #fullscreenToggle {
@@ -153,8 +153,8 @@ body.fullscreen-enabled #fullscreenToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(180,190,160);
-  background-color: rgba(180,190,160,0.8);
+  background-color: rgb(45,45,75);
+  background-color: rgba(45,45,75,0.8);
 }
 
 .mobile #autorotateToggle {
@@ -207,8 +207,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(180,190,160);
-  background-color: rgba(180,190,160,0.8);
+  background-color: rgb(45,45,75);
+  background-color: rgba(45,45,75,0.8);
 }
 
 .mobile #sceneListToggle {
@@ -272,8 +272,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: rgb(45,45,75);
-  background-color: rgba(45,45,75,0.8);
+  background-color: rgb(180,190,160);
+  background-color: rgba(180,190,160,0.8);
 }
 
 .mobile #sceneList {
@@ -319,13 +319,13 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .no-touch #sceneList .scene:hover {
-  background-color: rgb(180,190,160);
-  background-color: rgba(180,190,160,0.8);
+  background-color: rgb(45,45,75);
+  background-color: rgba(45,45,75,0.8);
 }
 
 #sceneList .scene.current {
-  background-color: rgb(180,190,160);
-  background-color: rgba(180,190,160,0.8);
+  background-color: rgb(45,45,75);
+  background-color: rgba(45,45,75,0.8);
 }
 
 /* Hide scene list when only a single scene exists */
@@ -340,12 +340,12 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 50px;
   margin-left: -25px;
   margin-top: -25px;
-  opacity: 0.8;
+  opacity: 0.9;
   transition: opacity 0.2s;
 }
 
 .no-touch .link-hotspot:hover {
-  opacity: 0.1;
+  opacity: 1;
 }
 
 .mobile .link-hotspot {
@@ -362,11 +362,11 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .link-hotspot-tooltip {
   position: absolute;
   left: 100%;
-  top: 14px; /* ( 60 - (16 + 2*8) ) / 2 */
+  top: 11px; /* ( 50 - (12 + 2*8) ) / 2 */
 
   margin-left: 3px;
 
-  font-size: 16px;
+  font-size: 12px;
 
   max-width: 300px;
 
@@ -374,8 +374,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
   border-radius: 5px;
 
-  background-color: rgb(45,45,75);
-  background-color: rgba(45,45,75,0.8);
+  background-color: rgb(180,190,160);
+  background-color: rgba(180,190,160,0.8);
 
   color: #fff;
 
@@ -398,7 +398,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .mobile .link-hotspot {
-  top: 19px; /* ( 70 - (16 + 2*8) ) / 2 */
+  top: 21px; /* ( 70 - (12 + 2*8) ) / 2 */
 }
 
 .no-touch .link-hotspot:hover .link-hotspot-tooltip {
@@ -445,7 +445,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(180,190,160);
+  background-color: rgb(45,45,75);
   cursor: pointer;
   transition: width 0.3s ease-in-out 0.5s,
               border-radius 0.3s ease-in-out 0.5s;
@@ -578,7 +578,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   top: 40px;
   left: 0;
   padding: 10px;
-  background-color: rgb(45,45,75);
+  background-color: rgb(180,190,160);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   overflow-y: auto;
@@ -651,8 +651,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   right: 10px;
   width: auto;
   height: 50px;
-  background-color: rgb(180,190,160);
-  background-color: rgba(180,190,160,0.8);
+  background-color: rgb(45,45,75);
+  background-color: rgba(45,45,75,0.8);
   opacity: 0;
   transition: opacity 0.3s ease-in-out 0.2s;
 }
@@ -724,8 +724,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   left: 10px;
   right: 10px;
   padding: 10px;
-  background-color: rgb(45,45,75);
-  background-color: rgba(45,45,75,0.8);
+  background-color: rgb(180,190,160);
+  background-color: rgba(180,190,160,0.8);
   overflow-y: auto;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -751,8 +751,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(180,190,160);
-  background-color: rgba(180,190,160,0.8);
+  background-color: rgb(45,45,75);
+  background-color: rgba(45,45,75,0.8);
 }
 
 body.view-control-buttons .viewControlButton {
